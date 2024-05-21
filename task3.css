@@ -1,0 +1,122 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjusted for smaller screens */
+    }
+    .subtitle {
+        font-size: 1rem; /* Adjusted for smaller screens */
+    }
+    .container {
+        padding: 10px;
+    }
+    section {
+        padding: 15px;
+    }
+}
+
+/* Additional Responsive Styles for Small Screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Further adjusted for smaller screens */
+    }
+    .subtitle {
+        font-size: 0.875rem; /* Further adjusted for smaller screens */
+    }
+}
